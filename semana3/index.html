@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Cadastro de Alunos</h1>
+    <form>
+        <fieldset>   
+            <legend>Dados:</legend>                                                                                                                                                                                                                                                                                        
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome...">
+        <br>
+        <br>
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome...">
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Digite seu email...">
+        <br>
+        <br>
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha" placeholder="Digite sua senha..."> 
+    </fieldset> 
+        <br>
+        <br>
+        <label for="area">Comentários:</label>
+        <br>
+        <br>
+        <textarea name="area" id="area" cols="30" rows="5" placeholder="Digite seu comentário"></textarea>
+        <br>
+        <br>
+        <label for="opcao">Qual sua cor favorita?:</label>
+        <input type="radio" name="opcao">Azul
+        <input type="radio" name="opcao"checked>Vermelho
+        <input type="radio" name="opcao">Amarelo
+        <br>
+        <br>
+        <label for="opcao2">Qual seu pet favorito?:</label>
+        <input type="radio" name="opcao2" checked>Gato
+        <input type="radio" name="opcao2">Cachorro
+        <input type="radio" name="opcao2">Jacaré
+        <br>
+        <br>
+        <select name="estado" id="estado">
+            <option value="sc">Santa Catarina</option>
+            <option value="sp">São Paulo</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="rs">Rio Grande do Sul</option>
+            <option value="mt">Mato Grosso</option>
+        </select>
+        <br>
+        <br>
+        <label for="itens">Escolha os itens de info</label>
+        <input type="checkbox" name="monitor" id="monitor">Monitor  
+        <input type="checkbox" name="teclado" id="teclado">Teclado  
+        <input type="checkbox" name="impressora" id="impressora">Impressora  
+        <input type="checkbox" name="mouse" id="mouse">Mouse
+        <br><br>
+        <input type="button" value="Botão simples">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar o formulário">
+    </form>
+</body>
+</html>
